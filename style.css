@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.box {
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #e0e0e0;
+  border: 1px solid #ccc;
+}
+
+.inline {
+  display: inline;
+  background-color: #ffcccb;
+}
+
+.block {
+  display: block;
+  background-color: #add8e6;
+}
+
+.inline-block {
+  display: inline-block;
+  background-color: #90ee90;
+}
+
+.none {
+  display: none; /* This box will not be visible */
+}
+
+.flex-container {
+  display: flex;
+  background-color: #d3d3d3;
+  gap: 10px;
+}
+
+.flex-container .item {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #999;
+}
